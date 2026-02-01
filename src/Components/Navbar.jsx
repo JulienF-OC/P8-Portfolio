@@ -15,7 +15,7 @@ function Navbar() {
 
         <ul className="hidden md:flex flex-row gap-2">
           <li className="btn btn-ghost font-bold"><a href="#">Accueil</a></li>
-          <li className="btn btn-ghost font-bold"><a href="#">À propos</a></li>
+          <li className="btn btn-ghost font-bold"><a href="#about">À propos</a></li>
           <li className="btn btn-ghost font-bold"><a href="#">Mes projets</a></li>
           <li className="btn btn-ghost font-bold"><a href="#">Me contacter</a></li>
         </ul>
