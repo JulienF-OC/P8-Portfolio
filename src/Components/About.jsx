@@ -1,4 +1,5 @@
 import img from "../assets/moi.jpg"
+import { FolderCode, Server, LaptopMinimalCheck } from "lucide-react"
 
 const aboutElements = [
   {
