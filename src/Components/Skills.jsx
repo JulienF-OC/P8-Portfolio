@@ -25,7 +25,7 @@ function Skills() {
     <section id="Skills">
       <div className="p-0 mb-10 md:mb-32">
         <div className="mb-5 text-center">
-          <h1 className="uppercase font-bold text-3xl">Mes compétences</h1>
+          <h1 className="uppercase font-bold text-3xl mb-10">Mes compétences</h1>
         </div>
 
         <div>

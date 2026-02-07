@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Booki",
+    "description": "Intégration d'une maquette responsive en HTML et CSS pour une plateforme de réservation d'hébergements. Le projet met l'accent sur la structure sémantique, le responsive design et l'accessibilité.",
+    "technologies": ["HTML", "CSS", "Flexbox", "Responsive Design"],
+    "demoLink": "",
+    "repoLink": "https://github.com/username/booki",
+    "image": "img1"
+  },
+  {
+    "id": 2,
+    "title": "Sophie Bluel",
+    "description": "Création d'une page web dynamique pour une architecte d'intérieur avec gestion de projets via une API. Implémentation de l'authentification administrateur et de la manipulation du DOM en JavaScript.",
+    "technologies": ["JavaScript", "API REST", "DOM", "Authentification"],
+    "demoLink": "",
+    "repoLink": "https://github.com/username/sophie-bluel",
+    "image": "img2"
+  },
+  {
+    "id": 3,
+    "title": "Nina Carducci",
+    "description": "Optimisation SEO et performances d'un site vitrine de photographe. Amélioration du référencement, de l'accessibilité, du temps de chargement et correction des erreurs détectées via des outils d'audit.",
+    "technologies": ["SEO", "Accessibilité", "Performance Web", "Lighthouse"],
+    "demoLink": "",
+    "repoLink": "https://github.com/username/nina-carducci",
+    "image": "img3"
+  },
+  {
+    "id": 4,
+    "title": "KASA",
+    "description": "Développement d'une application web de location immobilière avec React. Mise en place du routage, des composants dynamiques, des états et d'une interface utilisateur moderne.",
+    "technologies": ["React", "JavaScript", "React Router", "CSS"],
+    "demoLink": "",
+    "repoLink": "https://github.com/username/kasa",
+    "image": "img4"
+  },
+  {
+    "id": 5,
+    "title": "Mon Vieux Grimoire",
+    "description": "Création d'une API backend pour une plateforme de notation de livres. Gestion des utilisateurs, des permissions, du stockage des images et de la sécurité des données.",
+    "technologies": ["Node.js", "Express", "MongoDB", "JWT", "API REST"],
+    "demoLink": "",
+    "repoLink": "https://github.com/username/mon-vieux-grimoire",
+    "image": "img5"
+  }
+]
