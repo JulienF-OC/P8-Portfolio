@@ -26,7 +26,7 @@ function Navbar() {
             <a href="#">Mes projets</a>
           </li>
           <li className="btn btn-ghost font-bold">
-            <a href="#">Me contacter</a>
+            <a href="#contact">Me contacter</a>
           </li>
         </ul>
       </div>
