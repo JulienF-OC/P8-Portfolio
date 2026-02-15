@@ -28,7 +28,7 @@ const aboutElements = [
 function About() {
   return (
     <section id="about">
-      <div className="bg-base-300 p-10 mb-10 md:mb-32">
+      <div className="bg-base-300 p-10 mb-10 md:mb-15">
         <div className="mb-5 text-center">
           <h1 className="uppercase font-bold text-3xl">À propos</h1>
         </div>

@@ -1,0 +1,21 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "home": {
+    "greeting": "Bonjour,",
+    "intro": "je suis",
+    "name": "Franz Julien",
+    "description": {
+      "line1": "Je suis un développeur fullstack,",
+      "line2": "faire appel à moi, c'est comme donner vie à votre imagination.",
+      "line3": "Contactez-moi si vous avez besoin de mes services."
+    },
+    "contactButton": "Contactez-moi",
+    "photoAlt": "Photo de Franz Julien"
+  }
+}

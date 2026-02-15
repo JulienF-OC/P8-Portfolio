@@ -23,13 +23,13 @@ const skills = [
 function Skills() {
   return (
     <section id="Skills">
-      <div className="p-0 mb-10 md:mb-32">
+      <div className="p-0 mb-10 md:mb-60 ">
         <div className="mb-5 text-center">
           <h1 className="uppercase font-bold text-3xl mb-10">Mes compétences</h1>
         </div>
 
         <div>
-          <div className="mt-4 md:mt-0 grid grid-cols-3 gap-3 place-items-center max-w-2xl mx-auto">
+          <div className="mt-4 md:mt-15 grid grid-cols-3 gap-3 place-items-center max-w-2xl mx-auto transform transition duration-200 hover:scale-105">
             {skills.map((skill) => (
               <div
                 key={skill.id}

@@ -124,8 +124,8 @@ function Contact() {
                   </div>
                   <div>
                     <h3 className="card-title text-lg mb-1">Email</h3>
-                    <a href="mailto:contact@exemple.fr" className="link link-hover text-base-content/70">
-                      contact@exemple.fr
+                    <a href="mailto:julienfz59@gmail.com" className="link link-hover text-base-content/70">
+                      julienfz59@gmail.com
                     </a>
                   </div>
                 </div>
@@ -141,7 +141,7 @@ function Contact() {
                   </div>
                   <div>
                     <h3 className="card-title text-lg mb-1">Localisation</h3>
-                    <p className="text-base-content/70">Paris, France</p>
+                    <p className="text-base-content/70">Lille, France</p>
                   </div>
                 </div>
               </div>
@@ -169,7 +169,7 @@ function Contact() {
                         </svg>
                       </a>
                       <a 
-                        href="https://linkedin.com" 
+                        href="https://www.linkedin.com/in/julien-franz/" 
                         target="_blank" 
                         rel="noopener noreferrer" 
                         aria-label="LinkedIn"

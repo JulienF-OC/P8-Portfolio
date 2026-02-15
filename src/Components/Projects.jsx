@@ -24,7 +24,7 @@ function Projects() {
                 {project.technologies.map((tech, index) => (
                   <li
                     key={index}
-                    className="bg-primary text-white px-2 py-1 rounded"
+                    className="bg-accent text-black px-2 py-1 rounded"
                   >
                     {tech}
                   </li>
