@@ -1,8 +1,8 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
-import fr from "./locales/fr/translation.json";
-import en from "./locales/en/translation.json";
+import fr from "./Locales/fr/translation.json";
+import en from "./Locales/en/translation.json";
 
 i18n
   .use(initReactI18next)
@@ -11,7 +11,7 @@ i18n
       fr: { translation: fr },
       en: { translation: en }
     },
-    lng: localStorage.getItem("lang") ?? "fr", // ✅ ICI
+    lng: localStorage.getItem("lang") ?? "fr", 
     fallbackLng: "en",
     interpolation: {
       escapeValue: false
