@@ -6,7 +6,7 @@
     "technologies": ["HTML", "CSS", "Flexbox", "Responsive Design"],
     "demoLink": "",
     "repoLink": "https://github.com/username/booki",
-    "image": "img1"
+    "imageKey": "booki"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "technologies": ["JavaScript", "REST API", "DOM", "Authentication"],
     "demoLink": "",
     "repoLink": "https://github.com/username/sophie-bluel",
-    "image": "img2"
+    "imageKey": "sb"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "technologies": ["SEO", "Accessibility", "Web Performance", "Lighthouse"],
     "demoLink": "",
     "repoLink": "https://github.com/username/nina-carducci",
-    "image": "img3"
+    "imageKey": "nina"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "technologies": ["React", "JavaScript", "React Router", "CSS"],
     "demoLink": "",
     "repoLink": "https://github.com/username/kasa",
-    "image": "img4"
+    "imageKey": "kasa"
   },
   {
     "id": 5,
@@ -42,6 +42,6 @@
     "technologies": ["Node.js", "Express", "MongoDB", "JWT", "REST API"],
     "demoLink": "",
     "repoLink": "https://github.com/username/mon-vieux-grimoire",
-    "image": "img5"
+    "imageKey": "mvg"
   }
 ]

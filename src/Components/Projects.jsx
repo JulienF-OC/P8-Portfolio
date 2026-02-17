@@ -4,6 +4,20 @@ import { useTranslation } from "react-i18next";
 import ProjectsDataFR from "../data/ProjectsDataFR.json";
 import ProjectsDataEN from "../data/ProjectsDataEN.json";
 
+import bookiImg from "../assets/Booki.png";
+import sbImg from "../assets/SB.png";
+import ninaImg from "../assets/Nina.png";
+import kasaImg from "../assets/KASA.png";
+import mvgImg from "../assets/MVG.png";
+
+const images = {
+  booki: bookiImg,
+  sb: sbImg,
+  nina: ninaImg,
+  kasa: kasaImg,
+  mvg: mvgImg
+};
+
 function Projects() {
   const { t, i18n } = useTranslation();
 
@@ -24,6 +38,15 @@ function Projects() {
               key={project.id}
               className="bg-base-300 p-5 h-fit rounded-xl shadow-lg"
             >
+              {project.imageKey && images[project.imageKey] && (
+                <img
+                  src={images[project.imageKey]}
+                  alt={project.title}
+                  className="w-full h-40 object-cover rounded-lg mb-4"
+                  loading="lazy"
+                />
+              )}
+
               <h2 className="font-bold text-xl mb-2">{project.title}</h2>
 
               <p className="text-sm mb-3">{project.description}</p>
@@ -38,6 +61,20 @@ function Projects() {
                   </li>
                 ))}
               </ul>
+
+              {/* Liens (optionnel) */}
+              <div className="flex gap-2 justify-center">
+                {project.repoLink && (
+                  <a
+                    className="btn btn-sm btn-white"
+                    href={project.repoLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {t("projects.repo")}
+                  </a>
+                )}
+              </div>
             </div>
           ))}
         </div>

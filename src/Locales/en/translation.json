@@ -35,7 +35,8 @@
     }
   },
   "projects": {
-    "title": "My projects"
+    "title": "My projects",
+    "repo": "Repository Link"
   },
   "contact": {
     "title": { "before": "Get in", "accent": "Touch" },
