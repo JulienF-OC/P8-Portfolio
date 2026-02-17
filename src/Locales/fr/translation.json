@@ -17,5 +17,61 @@
     },
     "contactButton": "Contactez-moi",
     "photoAlt": "Photo de Franz Julien"
+  },
+  "about": {
+    "title": "À propos",
+    "photoAlt": "Photo de Franz Julien",
+    "frontend": {
+      "title": "Développeur Frontend",
+      "description": "Création d’interfaces web performantes, responsives et centrées sur l’expérience utilisateur."
+    },
+    "backend": {
+      "title": "Développeur Backend",
+      "description": "Développement de solutions serveur fiables, sécurisées et adaptées aux besoins des applications modernes."
+    },
+    "architecture": {
+      "title": "Architecture & Bonnes pratiques",
+      "description": "Mise en place d’architectures solides et de bonnes pratiques de développement pour des applications performantes et durables."
+    }
+  },
+  "projects": {
+    "title": "Mes projets"
+  },
+  "contact": {
+    "title": { "before": "Me", "accent": "Contacter" },
+    "subtitle": {
+      "line1": "Une question ? Un projet ? N'hésitez pas à me contacter,",
+      "line2": "je vous répondrai dans les plus brefs délais."
+    },
+    "info": {
+      "emailTitle": "Email",
+      "locationTitle": "Localisation",
+      "socialTitle": "Réseaux sociaux"
+    },
+    "form": {
+      "nameLabel": "Nom *",
+      "emailLabel": "Email *",
+      "subjectLabel": "Sujet *",
+      "messageLabel": "Message *",
+      "namePlaceholder": "Votre nom",
+      "emailPlaceholder": "votre@email.fr",
+      "subjectPlaceholder": "Le sujet de votre message",
+      "messagePlaceholder": "Votre message...",
+      "sending": "Envoi en cours...",
+      "submit": "Envoyer le message"
+    },
+    "status": {
+      "success": "Message envoyé avec succès ! Je vous répondrai bientôt.",
+      "error": "Une erreur s'est produite. Veuillez réessayer."
+    },
+    "errors": {
+      "nameRequired": "Le nom est requis",
+      "emailRequired": "L'email est requis",
+      "emailInvalid": "L'email n'est pas valide",
+      "subjectRequired": "Le sujet est requis",
+      "messageRequired": "Le message est requis",
+      "messageMin": "Le message doit contenir au moins {{count}} caractères"
+    }
   }
 }
+

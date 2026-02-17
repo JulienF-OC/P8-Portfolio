@@ -17,6 +17,60 @@
     },
     "contactButton": "Contact me",
     "photoAlt": "Photo of Franz Julien"
+  },
+  "about": {
+    "title": "About",
+    "photoAlt": "Photo of Franz Julien",
+    "frontend": {
+      "title": "Frontend Developer",
+      "description": "Creation of high-performance, responsive web interfaces focused on user experience."
+    },
+    "backend": {
+      "title": "Backend Developer",
+      "description": "Development of reliable and secure server-side solutions tailored to modern application needs."
+    },
+    "architecture": {
+      "title": "Architecture & Best Practices",
+      "description": "Implementation of solid architectures and development best practices for scalable and sustainable applications."
+    }
+  },
+  "projects": {
+    "title": "My projects"
+  },
+  "contact": {
+    "title": { "before": "Get in", "accent": "Touch" },
+    "subtitle": {
+      "line1": "A question? A project? Feel free to contact me,",
+      "line2": "I’ll get back to you as soon as possible."
+    },
+    "info": {
+      "emailTitle": "Email",
+      "locationTitle": "Location",
+      "socialTitle": "Social links"
+    },
+    "form": {
+      "nameLabel": "Name *",
+      "emailLabel": "Email *",
+      "subjectLabel": "Subject *",
+      "messageLabel": "Message *",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "your@email.com",
+      "subjectPlaceholder": "Message subject",
+      "messagePlaceholder": "Your message...",
+      "sending": "Sending...",
+      "submit": "Send message"
+    },
+    "status": {
+      "success": "Message sent successfully! I’ll reply soon.",
+      "error": "Something went wrong. Please try again."
+    },
+    "errors": {
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Email is not valid",
+      "subjectRequired": "Subject is required",
+      "messageRequired": "Message is required",
+      "messageMin": "Message must be at least {{count}} characters"
+    }
   }
 }
-

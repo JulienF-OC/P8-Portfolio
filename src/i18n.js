@@ -11,7 +11,7 @@ i18n
       fr: { translation: fr },
       en: { translation: en }
     },
-    lng: "fr",
+    lng: localStorage.getItem("lang") ?? "fr", // ✅ ICI
     fallbackLng: "en",
     interpolation: {
       escapeValue: false

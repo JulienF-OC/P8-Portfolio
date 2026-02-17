@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Booki",
+    "description": "Integration of a responsive mockup using HTML and CSS for an accommodation booking platform. The project focuses on semantic structure, responsive design, and accessibility.",
+    "technologies": ["HTML", "CSS", "Flexbox", "Responsive Design"],
+    "demoLink": "",
+    "repoLink": "https://github.com/username/booki",
+    "image": "img1"
+  },
+  {
+    "id": 2,
+    "title": "Sophie Bluel",
+    "description": "Development of a dynamic website for an interior architect with project management via an API. Implementation of admin authentication and DOM manipulation in JavaScript.",
+    "technologies": ["JavaScript", "REST API", "DOM", "Authentication"],
+    "demoLink": "",
+    "repoLink": "https://github.com/username/sophie-bluel",
+    "image": "img2"
+  },
+  {
+    "id": 3,
+    "title": "Nina Carducci",
+    "description": "SEO and performance optimization of a photographer's portfolio website. Improvements in search engine ranking, accessibility, loading speed, and fixing issues identified through auditing tools.",
+    "technologies": ["SEO", "Accessibility", "Web Performance", "Lighthouse"],
+    "demoLink": "",
+    "repoLink": "https://github.com/username/nina-carducci",
+    "image": "img3"
+  },
+  {
+    "id": 4,
+    "title": "KASA",
+    "description": "Development of a real estate rental web application using React. Implementation of routing, dynamic components, state management, and a modern user interface.",
+    "technologies": ["React", "JavaScript", "React Router", "CSS"],
+    "demoLink": "",
+    "repoLink": "https://github.com/username/kasa",
+    "image": "img4"
+  },
+  {
+    "id": 5,
+    "title": "Mon Vieux Grimoire",
+    "description": "Creation of a backend API for a book review platform. User management, permissions handling, image storage, and data security implementation.",
+    "technologies": ["Node.js", "Express", "MongoDB", "JWT", "REST API"],
+    "demoLink": "",
+    "repoLink": "https://github.com/username/mon-vieux-grimoire",
+    "image": "img5"
+  }
+]
