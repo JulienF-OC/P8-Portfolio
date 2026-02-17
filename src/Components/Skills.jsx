@@ -1,3 +1,5 @@
+import { useTranslation } from "react-i18next";
+
 import imgHTML from "../assets/imgHTML.webp";
 import imgCSS from "../assets/imgCSS.webp";
 import imgJS from "../assets/imgJS.webp";
@@ -17,15 +19,19 @@ const skills = [
   { id: 6, name: "Express", image: imgExpress },
   { id: 7, name: "MongoDB", image: imgMongo },
   { id: 8, name: "Next.js", image: imgNext },
-  { id: 9, name: "Figma", image: imgFigma },
+  { id: 9, name: "Figma", image: imgFigma }
 ];
 
 function Skills() {
+  const { t } = useTranslation();
+
   return (
     <section id="Skills">
-      <div className="p-0 mb-10 md:mb-60 ">
+      <div className="p-0 mb-10 md:mb-60">
         <div className="mb-5 text-center">
-          <h1 className="uppercase font-bold text-3xl mb-10">Mes compétences</h1>
+          <h1 className="uppercase font-bold text-3xl mb-10">
+            {t("skills.title")}
+          </h1>
         </div>
 
         <div>

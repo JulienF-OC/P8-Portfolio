@@ -36,7 +36,11 @@
   },
   "projects": {
     "title": "My projects",
-    "repo": "Repository Link"
+    "repo": "View code",
+    "demo": "Live demo"
+  },
+  "skills": {
+    "title": "My skills"
   },
   "contact": {
     "title": { "before": "Get in", "accent": "Touch" },

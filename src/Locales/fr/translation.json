@@ -36,7 +36,11 @@
   },
   "projects": {
     "title": "Mes projets",
-    "repo": "Lien du repo"
+    "repo": "Voir le code",
+    "demo": "Voir la démo"
+  },
+  "skills": {
+    "title": "Mes compétences"
   },
   "contact": {
     "title": { "before": "Me", "accent": "Contacter" },
@@ -75,4 +79,3 @@
     }
   }
 }
-
