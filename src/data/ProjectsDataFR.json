@@ -5,7 +5,7 @@
     "description": "Intégration d'une maquette responsive en HTML et CSS pour une plateforme de réservation d'hébergements. Le projet met l'accent sur la structure sémantique, le responsive design et l'accessibilité.",
     "technologies": ["HTML", "CSS", "Flexbox", "Responsive Design"],
     "demoLink": "",
-    "repoLink": "https://github.com/username/booki",
+    "repoLink": "https://github.com/JulienF-OC/Booki2",
     "imageKey": "booki"
   },
   {
@@ -14,7 +14,7 @@
     "description": "Création d'une page web dynamique pour une architecte d'intérieur avec gestion de projets via une API. Implémentation de l'authentification administrateur et de la manipulation du DOM en JavaScript.",
     "technologies": ["JavaScript", "API REST", "DOM", "Authentification"],
     "demoLink": "",
-    "repoLink": "https://github.com/username/sophie-bluel",
+    "repoLink": "https://github.com/JulienF-OC/P3-SophieBluel",
     "imageKey": "sb"
   },
   {
@@ -23,7 +23,7 @@
     "description": "Optimisation SEO et performances d'un site vitrine de photographe. Amélioration du référencement, de l'accessibilité, du temps de chargement et correction des erreurs détectées via des outils d'audit.",
     "technologies": ["SEO", "Accessibilité", "Performance Web", "Lighthouse"],
     "demoLink": "",
-    "repoLink": "https://github.com/username/nina-carducci",
+    "repoLink": "https://github.com/JulienF-OC/P4-NinaCarducci",
     "imageKey": "nina"
   },
   {
@@ -32,7 +32,7 @@
     "description": "Développement d'une application web de location immobilière avec React. Mise en place du routage, des composants dynamiques, des états et d'une interface utilisateur moderne.",
     "technologies": ["React", "JavaScript", "React Router", "CSS"],
     "demoLink": "",
-    "repoLink": "https://github.com/username/kasa",
+    "repoLink": "https://github.com/JulienF-OC/P5-KASA",
     "imageKey": "kasa"
   },
   {
@@ -41,7 +41,7 @@
     "description": "Création d'une API backend pour une plateforme de notation de livres. Gestion des utilisateurs, des permissions, du stockage des images et de la sécurité des données.",
     "technologies": ["Node.js", "Express", "MongoDB", "JWT", "API REST"],
     "demoLink": "",
-    "repoLink": "https://github.com/username/mon-vieux-grimoire",
+    "repoLink": "https://github.com/JulienF-OC/P6-Mon-Vieux-Grimoire",
     "imageKey": "mvg"
   }
 ]

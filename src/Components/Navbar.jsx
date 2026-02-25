@@ -18,7 +18,6 @@ function Navbar() {
 
   const closeMobile = () => setMobileOpen(false);
 
-  // Ferme le dropdown langue si clic à l'extérieur
   useEffect(() => {
     const onClickOutside = (e) => {
       if (langRef.current && !langRef.current.contains(e.target)) {
@@ -29,7 +28,6 @@ function Navbar() {
     return () => document.removeEventListener("mousedown", onClickOutside);
   }, []);
 
-  // Optionnel: ferme le menu mobile si on repasse en desktop
   useEffect(() => {
     const onResize = () => {
       if (window.innerWidth >= 768) setMobileOpen(false);
