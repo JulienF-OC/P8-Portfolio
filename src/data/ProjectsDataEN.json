@@ -5,7 +5,7 @@
     "description": "Integration of a responsive mockup using HTML and CSS for an accommodation booking platform. The project focuses on semantic structure, responsive design, and accessibility.",
     "technologies": ["HTML", "CSS", "Flexbox", "Responsive Design"],
     "demoLink": "",
-    "repoLink": "https://github.com/username/booki",
+    "repoLink": "https://github.com/JulienF-OC/Booki2",
     "imageKey": "booki"
   },
   {
@@ -14,7 +14,7 @@
     "description": "Development of a dynamic website for an interior architect with project management via an API. Implementation of admin authentication and DOM manipulation in JavaScript.",
     "technologies": ["JavaScript", "REST API", "DOM", "Authentication"],
     "demoLink": "",
-    "repoLink": "https://github.com/username/sophie-bluel",
+    "repoLink": "https://github.com/JulienF-OC/P3-SophieBluel",
     "imageKey": "sb"
   },
   {
@@ -23,7 +23,7 @@
     "description": "SEO and performance optimization of a photographer's portfolio website. Improvements in search engine ranking, accessibility, loading speed, and fixing issues identified through auditing tools.",
     "technologies": ["SEO", "Accessibility", "Web Performance", "Lighthouse"],
     "demoLink": "",
-    "repoLink": "https://github.com/username/nina-carducci",
+    "repoLink": "https://github.com/JulienF-OC/P4-NinaCarducci",
     "imageKey": "nina"
   },
   {
@@ -32,7 +32,7 @@
     "description": "Development of a real estate rental web application using React. Implementation of routing, dynamic components, state management, and a modern user interface.",
     "technologies": ["React", "JavaScript", "React Router", "CSS"],
     "demoLink": "",
-    "repoLink": "https://github.com/username/kasa",
+    "repoLink": "https://github.com/JulienF-OC/P5-KASA",
     "imageKey": "kasa"
   },
   {
@@ -41,7 +41,7 @@
     "description": "Creation of a backend API for a book review platform. User management, permissions handling, image storage, and data security implementation.",
     "technologies": ["Node.js", "Express", "MongoDB", "JWT", "REST API"],
     "demoLink": "",
-    "repoLink": "https://github.com/username/mon-vieux-grimoire",
+    "repoLink": "https://github.com/JulienF-OC/P6-Mon-Vieux-Grimoire",
     "imageKey": "mvg"
   }
 ]
