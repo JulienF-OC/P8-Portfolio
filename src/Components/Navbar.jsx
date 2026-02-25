@@ -152,7 +152,7 @@ function Navbar() {
               <div className="divider my-2" />
 
               <li className="menu-title">
-                <span>{t("nav.language") ?? "Langue"}</span>
+                <span>{t("Choix de langue") ?? "Langue"}</span>
               </li>
 
               <li>
