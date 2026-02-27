@@ -9,13 +9,15 @@ import sbImg from "../assets/SB.png";
 import ninaImg from "../assets/Nina.png";
 import kasaImg from "../assets/KASA.png";
 import mvgImg from "../assets/MVG.png";
+import movieExplorerimg from "../assets/movieExplorer.png"
 
 const images = {
   booki: bookiImg,
   sb: sbImg,
   nina: ninaImg,
   kasa: kasaImg,
-  mvg: mvgImg
+  mvg: mvgImg,
+  movieExplorer: movieExplorerimg
 };
 
 function Projects() {
@@ -62,7 +64,6 @@ function Projects() {
                 ))}
               </ul>
 
-              {/* Liens (optionnel) */}
               <div className="flex gap-2 justify-center">
                 {project.repoLink && (
                   <a
