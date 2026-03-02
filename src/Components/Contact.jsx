@@ -94,7 +94,6 @@ function Contact() {
 
       const data = await response.json().catch(() => null);
 
-      // Formspree renvoie normalement { ok: true } si tout est bon
       if (!response.ok || !data?.ok) {
         console.error("Formspree response:", response.status, data);
         throw new Error("Formspree submit failed");
@@ -119,7 +118,6 @@ function Contact() {
   return (
     <section className="my-10 md:my-32" id="contact">
       <div className="max-w-7xl mx-auto px-5">
-        {/* Header */}
         <div className="text-center mb-12 md:mb-16">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">
             {t("contact.title.before")}{" "}
@@ -133,10 +131,8 @@ function Contact() {
         </div>
 
         <div className="grid lg:grid-cols-[1fr_1.5fr] gap-8 items-start">
-          {/* Informations de contact */}
           <div className="flex flex-col gap-5">
-            {/* Email */}
-            <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+            <div className="card bg-base-300 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
               <div className="card-body p-6">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 min-w-[48px] bg-accent rounded-xl flex items-center justify-center text-accent-content">
@@ -156,9 +152,7 @@ function Contact() {
                 </div>
               </div>
             </div>
-
-            {/* Localisation */}
-            <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+            <div className="card bg-base-300 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
               <div className="card-body p-6">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 min-w-[48px] bg-accent rounded-xl flex items-center justify-center text-accent-content">
@@ -173,9 +167,7 @@ function Contact() {
                 </div>
               </div>
             </div>
-
-            {/* Réseaux sociaux */}
-            <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+            <div className="card bg-base-300 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
               <div className="card-body p-6">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 min-w-[48px] bg-accent rounded-xl flex items-center justify-center text-accent-content">
@@ -226,12 +218,9 @@ function Contact() {
               </div>
             </div>
           </div>
-
-          {/* Formulaire de contact */}
-          <div className="card bg-base-100 shadow-2xl">
+          <div className="card bg-base-300 shadow-2xl">
             <div className="card-body p-8 lg:p-10">
               <form onSubmit={handleSubmit} className="space-y-6" noValidate>
-                {/* Honeypot anti-spam */}
                 <input
                   type="text"
                   name="_gotcha"
@@ -239,8 +228,6 @@ function Contact() {
                   tabIndex={-1}
                   autoComplete="off"
                 />
-
-                {/* Nom et Email */}
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="form-control">
                     <label htmlFor="name" className="label">
@@ -294,8 +281,6 @@ function Contact() {
                     )}
                   </div>
                 </div>
-
-                {/* Sujet */}
                 <div className="form-control">
                   <label htmlFor="subject" className="label">
                     <span className="label-text font-semibold">
@@ -321,8 +306,6 @@ function Contact() {
                     </label>
                   )}
                 </div>
-
-                {/* Message */}
                 <div className="form-control">
                   <label htmlFor="message" className="label">
                     <span className="label-text font-semibold">
@@ -348,8 +331,6 @@ function Contact() {
                     </label>
                   )}
                 </div>
-
-                {/* Bouton Submit */}
                 <button
                   type="submit"
                   disabled={formStatus.loading}
@@ -367,8 +348,6 @@ function Contact() {
                     </>
                   )}
                 </button>
-
-                {/* Message de succès */}
                 {formStatus.success && (
                   <div className="alert alert-success">
                     <svg
@@ -387,8 +366,6 @@ function Contact() {
                     <span>{t("contact.status.success")}</span>
                   </div>
                 )}
-
-                {/* Message d'erreur */}
                 {formStatus.error && (
                   <div className="alert alert-error">
                     <svg
