@@ -35,11 +35,11 @@ function Skills() {
         </div>
 
         <div>
-          <div className="mt-4 md:mt-15 grid grid-cols-3 gap-3 place-items-center max-w-2xl mx-auto transform transition duration-200 hover:scale-105">
+          <div className="mt-4 md:mt-15 grid grid-cols-3 gap-3 place-items-center max-w-2xl mx-auto transform transition duration-200">
             {skills.map((skill) => (
               <div
                 key={skill.id}
-                className="flex justify-center items-center flex-col"
+                className="flex justify-center items-center flex-col hover:scale-110 mb-10"
               >
                 <div className="w-24 h-24 p-2 rounded-full border-2 border-accent">
                   <img
