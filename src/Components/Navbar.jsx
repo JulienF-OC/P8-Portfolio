@@ -39,7 +39,6 @@ function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-base-100/90 backdrop-blur border-b">
       <nav className="relative mx-auto flex items-center justify-between px-4 md:px-[15%] py-2">
-        {/* Logo + Nom */}
         <a href="#" className="flex items-center gap-2 flex-shrink-0">
           <img
             src={img}
@@ -51,25 +50,23 @@ function Navbar() {
           </div>
         </a>
 
-        {/* Desktop */}
         <ul className="hidden md:flex items-center gap-2">
           <li className="btn btn-ghost font-bold">
             <a href="#">{t("nav.home")}</a>
           </li>
           <li className="btn btn-ghost font-bold">
-            <a href="#about">{t("nav.about")}</a>
+            <a href="#about" className="scroll-mt-24">{t("nav.about")}</a>
           </li>
           <li className="btn btn-ghost font-bold">
-            <a href="#Skills">{t("nav.skills")}</a>
+            <a href="#Skills" className="scroll-mt-24">{t("nav.skills")}</a>
           </li>
           <li className="btn btn-ghost font-bold">
-            <a href="#Projects">{t("nav.projects")}</a>
+            <a href="#Projects" className="scroll-mt-24">{t("nav.projects")}</a>
           </li>
           <li className="btn btn-ghost font-bold">
-            <a href="#contact">{t("nav.contact")}</a>
+            <a href="#contact" className="scroll-mt-24">{t("nav.contact")}</a>
           </li>
 
-          {/* Lang Desktop */}
           <li className="ml-2" ref={langRef}>
             <button
               className="btn btn-ghost btn-sm flex items-center gap-2"
@@ -109,7 +106,6 @@ function Navbar() {
           </li>
         </ul>
 
-        {/* Bouton Mobile */}
         <button
           className="md:hidden btn btn-ghost p-2"
           onClick={() => setMobileOpen((v) => !v)}
@@ -119,7 +115,6 @@ function Navbar() {
           {mobileOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
 
-        {/* Menu Mobile */}
         {mobileOpen && (
           <div className="md:hidden absolute top-full left-0 right-0 z-50 bg-base-100 border-b shadow-lg">
             <ul className="menu p-4 gap-1">

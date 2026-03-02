@@ -8,8 +8,8 @@ import Contact from "./Components/Contact"
 function App() {
   return (
     <>
+    <Navbar />
     <div className="p-5 md:-[15%]">
-      <Navbar />
       <Home />
       </div>
       <About />

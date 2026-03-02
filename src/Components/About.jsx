@@ -1,4 +1,4 @@
-import img from "../assets/moi.jpg";
+import img from "../assets/moi2.png";
 import { FolderCode, Server, LaptopMinimalCheck } from "lucide-react";
 import { useTranslation } from "react-i18next";
 

@@ -49,7 +49,7 @@
   "title": "Movie Explorer",
   "description": "Development of a responsive movie search application using React and the OMDb API. Implementation of dynamic search functionality. Focus on clean UI design, accessibility, and scalable frontend structure.",
   "technologies": ["React", "JavaScript", "SASS", "OMDb API"],
-  "demoLink": "",
+  "demoLink": "https://movie-explorer-franz-julien.netlify.app/",
   "repoLink": "https://github.com/JulienF-OC/MovieExplorer",
   "imageKey": "movieExplorer"
 }

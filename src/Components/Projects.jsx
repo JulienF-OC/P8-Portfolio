@@ -65,17 +65,28 @@ function Projects() {
               </ul>
 
               <div className="flex gap-2 justify-center">
-                {project.repoLink && (
-                  <a
-                    className="btn btn-sm btn-white"
-                    href={project.repoLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {t("projects.repo")}
-                  </a>
-                )}
-              </div>
+  {project.repoLink && (
+    <a
+      className="btn btn-sm btn-white"
+      href={project.repoLink}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {t("projects.repo")}
+    </a>
+  )}
+
+  {project.demoLink && (
+    <a
+      className="btn btn-sm btn-white"
+      href={project.demoLink}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {t("projects.demo")}
+    </a>
+  )}
+</div>
             </div>
           ))}
         </div>
