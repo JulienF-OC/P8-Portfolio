@@ -77,5 +77,8 @@
       "messageRequired": "Le message est requis",
       "messageMin": "Le message doit contenir au moins {{count}} caractères"
     }
-  }
+  },
+  "footer": { 
+      "rights": "Tous droits réservés." 
+    }
 }
