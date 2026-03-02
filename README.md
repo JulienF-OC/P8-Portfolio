@@ -1,16 +1,58 @@
-# React + Vite
+# Portfolio – Julien Franz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## À propos
 
-Currently, two official plugins are available:
+Ce portfolio a été conçu dans le cadre du **Projet 8** de ma formation Développeur Web chez OpenClassrooms. C'est avant tout un espace qui me ressemble : un endroit où je rassemble mes projets, mes compétences, et ma façon d'aborder le développement web.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 **Version en ligne :** [portfolio-franz-julien.netlify.app](https://portfolio-franz-julien.netlify.app/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Ce que j'ai voulu construire
 
-## Expanding the ESLint configuration
+- Un portfolio qui met réellement en valeur mon travail et mes compétences
+- Une démonstration concrète de ma maîtrise de React et d'un stack moderne
+- Une expérience fluide, responsive, agréable à parcourir
+- Une base solide, propre et évolutive — pensée pour durer
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Stack technique
+
+| Outil | Rôle |
+|---|---|
+| **React** | Framework principal |
+| **Vite** | Build ultra-rapide |
+| **Tailwind CSS** | Styling utility-first |
+| **daisyUI** | Composants UI |
+| **Lucide React** | Icônes optimisées |
+| **react-i18next** | Internationalisation |
+| **Netlify** | Déploiement |
+
+---
+
+## Ce dont je suis particulièrement fier
+
+- Une architecture **modulaire orientée composants**, pensée pour être maintenable
+- Un design **mobile-first** vraiment responsive
+- L'**internationalisation intégrée dès le départ** avec react-i18next — pas rajoutée en dernier
+- Un build rapide et optimisé grâce à Vite
+
+---
+
+## Installation en local
+```bash
+git clone https://github.com/JulienF-OC/P8-Portfolio.git
+cd P8-Portfolio
+npm install
+npm run dev
+```
+
+L'application tourne ensuite sur [http://localhost:3000](http://localhost:3000)
+
+---
+
+## Me retrouver
+
+- 💻 GitHub : [github.com/JulienF-OC](https://github.com/JulienF-OC)
+- 🌐 Portfolio : [portfolio-franz-julien.netlify.app](https://portfolio-franz-julien.netlify.app/)
