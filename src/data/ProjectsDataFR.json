@@ -3,6 +3,14 @@
     "id": 1,
     "title": "Booki",
     "description": "Intégration d'une maquette responsive en HTML et CSS pour une plateforme de réservation d'hébergements. Le projet met l'accent sur la structure sémantique, le responsive design et l'accessibilité.",
+    "longDescription": "Booki est un projet de formation consistant à intégrer une maquette Figma en HTML/CSS pur. L'objectif était de produire une page web fidèle au design, fonctionnelle sur mobile, tablette et desktop, sans aucun framework CSS.",
+    "features": [
+      "Intégration pixel-perfect depuis une maquette Figma",
+      "Mise en page responsive mobile, tablette et desktop",
+      "Structure HTML sémantique (header, main, section, footer)",
+      "Utilisation de Flexbox pour l'organisation des blocs"
+    ],
+    "challenges": "Le principal défi était de gérer la compatibilité entre les différentes tailles d'écran sans framework, en utilisant uniquement les media queries CSS. J'ai appris à lire une maquette avec précision et à traduire des contraintes visuelles en code propre.",
     "technologies": ["HTML", "CSS", "Flexbox", "Responsive Design"],
     "demoLink": "",
     "repoLink": "https://github.com/JulienF-OC/Booki2",
@@ -12,6 +20,15 @@
     "id": 2,
     "title": "Sophie Bluel",
     "description": "Création d'une page web dynamique pour une architecte d'intérieur avec gestion de projets via une API. Implémentation de l'authentification administrateur et de la manipulation du DOM en JavaScript.",
+    "longDescription": "Sophie Bluel est un projet fullstack orienté JavaScript vanilla. Il s'agissait de connecter une page statique à une API REST existante pour afficher dynamiquement les projets d'une architecte, gérer une modale d'ajout de travaux et sécuriser l'accès administrateur via un token JWT.",
+    "features": [
+      "Affichage dynamique des projets depuis une API REST",
+      "Système de filtrage des projets par catégorie",
+      "Authentification administrateur avec JWT",
+      "Modale d'ajout et de suppression de projets",
+      "Manipulation du DOM sans framework"
+    ],
+    "challenges": "Gérer l'état de l'interface en JavaScript pur sans React a été formateur. J'ai appris à structurer mon code en modules, à manipuler le DOM de façon performante et à sécuriser les appels API avec un token d'authentification.",
     "technologies": ["JavaScript", "API REST", "DOM", "Authentification"],
     "demoLink": "",
     "repoLink": "https://github.com/JulienF-OC/P3-SophieBluel",
@@ -21,6 +38,15 @@
     "id": 3,
     "title": "Nina Carducci",
     "description": "Optimisation SEO et performances d'un site vitrine de photographe. Amélioration du référencement, de l'accessibilité, du temps de chargement et correction des erreurs détectées via des outils d'audit.",
+    "longDescription": "Nina Carducci est un projet d'optimisation d'un site existant. À partir d'un audit Lighthouse, j'ai identifié et corrigé les problèmes de performance, d'accessibilité et de SEO : compression des images, amélioration du contraste, ajout des balises meta, structured data Schema.org et corrections ARIA.",
+    "features": [
+      "Audit complet via Lighthouse et Wave",
+      "Compression et redimensionnement des images",
+      "Ajout des balises meta Open Graph et Twitter Card",
+      "Implémentation du balisage Schema.org",
+      "Corrections d'accessibilité WCAG (contrastes, ARIA, focus)"
+    ],
+    "challenges": "Comprendre l'impact de chaque optimisation sur le score Lighthouse et trouver le bon équilibre entre qualité visuelle et performance des images. Ce projet m'a donné une approche systématique de l'audit web.",
     "technologies": ["SEO", "Accessibilité", "Performance Web", "Lighthouse"],
     "demoLink": "",
     "repoLink": "https://github.com/JulienF-OC/P4-NinaCarducci",
@@ -30,6 +56,15 @@
     "id": 4,
     "title": "KASA",
     "description": "Développement d'une application web de location immobilière avec React. Mise en place du routage, des composants dynamiques, des états et d'une interface utilisateur moderne.",
+    "longDescription": "KASA est une application React de location immobilière construite from scratch. Le projet consistait à créer une SPA complète avec React Router, des composants réutilisables (carousel, accordion, galerie) et une gestion des données via un fichier JSON local.",
+    "features": [
+      "Navigation SPA avec React Router",
+      "Composant carousel d'images avec gestion des états",
+      "Composant accordion animé",
+      "Page 404 personnalisée",
+      "Design responsive fidèle à la maquette Figma"
+    ],
+    "challenges": "Construire un carousel accessible et fluide sans librairie externe a été le principal défi technique. J'ai approfondi ma compréhension des hooks React (useState, useEffect) et appris à concevoir des composants vraiment réutilisables.",
     "technologies": ["React", "JavaScript", "React Router", "CSS"],
     "demoLink": "",
     "repoLink": "https://github.com/JulienF-OC/P5-KASA",
@@ -39,18 +74,36 @@
     "id": 5,
     "title": "Mon Vieux Grimoire",
     "description": "Création d'une API backend pour une plateforme de notation de livres. Gestion des utilisateurs, des permissions, du stockage des images et de la sécurité des données.",
+    "longDescription": "Mon Vieux Grimoire est un projet backend Node.js/Express connecté à une base MongoDB. L'objectif était de développer une API REST sécurisée permettant la gestion des utilisateurs, l'ajout de livres avec upload d'images et un système de notation unique par utilisateur.",
+    "features": [
+      "API REST complète avec Express",
+      "Authentification sécurisée avec JWT et bcrypt",
+      "Upload et optimisation des images avec Sharp",
+      "Système de notation moyenne calculée dynamiquement",
+      "Architecture MVC avec modèles Mongoose"
+    ],
+    "challenges": "Sécuriser correctement les routes et gérer les permissions (seul l'auteur peut modifier son livre) a demandé une bonne compréhension des middlewares Express. J'ai aussi découvert l'optimisation d'images côté serveur avec Sharp.",
     "technologies": ["Node.js", "Express", "MongoDB", "JWT", "API REST"],
     "demoLink": "",
     "repoLink": "https://github.com/JulienF-OC/P6-Mon-Vieux-Grimoire",
     "imageKey": "mvg"
   },
   {
-  "id": 6,
-  "title": "Movie Explorer",
-  "description": "Application web responsive de recherche de films développée avec React et l'API OMDb. Recherche dynamique, UI soignée, code structuré pour évoluer facilement.",
-  "technologies": ["React", "JavaScript", "SASS", "OMDb API"],
-  "demoLink": "https://movie-explorer-franz-julien.netlify.app/",
-  "repoLink": "https://github.com/JulienF-OC/MovieExplorer",
-  "imageKey": "movieExplorer"
-}
+    "id": 6,
+    "title": "Movie Explorer",
+    "description": "Application web responsive de recherche de films développée avec React et l'API OMDb. Recherche dynamique, UI soignée, code structuré pour évoluer facilement.",
+    "longDescription": "Movie Explorer est un projet personnel développé pour consolider mes compétences React. L'application permet de rechercher des films en temps réel via l'API OMDb, d'afficher les détails d'un film et de naviguer dans les résultats avec une interface soignée et entièrement responsive.",
+    "features": [
+      "Recherche de films en temps réel via l'API OMDb",
+      "Affichage des détails d'un film (synopsis, note, année, genre)",
+      "Interface responsive adaptée mobile et desktop",
+      "Gestion des états de chargement et des erreurs API",
+      "Déploiement continu sur Netlify"
+    ],
+    "challenges": "Optimiser les appels API pour éviter les requêtes excessives lors de la frappe (debounce) et gérer proprement les états d'erreur et de chargement pour offrir une bonne expérience utilisateur.",
+    "technologies": ["React", "JavaScript", "SASS", "OMDb API"],
+    "demoLink": "https://movie-explorer-franz-julien.netlify.app/",
+    "repoLink": "https://github.com/JulienF-OC/MovieExplorer",
+    "imageKey": "movieExplorer"
+  }
 ]

@@ -58,6 +58,9 @@ function Navbar() {
             <a href="#about" className="scroll-mt-24">{t("nav.about")}</a>
           </li>
           <li className="btn btn-ghost font-bold">
+            <a href="#Career" className="scroll-mt-24">{t("timeline.title")}</a>
+          </li>
+          <li className="btn btn-ghost font-bold">
             <a href="#Skills" className="scroll-mt-24">{t("nav.skills")}</a>
           </li>
           <li className="btn btn-ghost font-bold">

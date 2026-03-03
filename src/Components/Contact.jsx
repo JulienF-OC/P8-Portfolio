@@ -139,9 +139,9 @@ function Contact() {
                     <Mail className="w-6 h-6" />
                   </div>
                   <div>
-                    <h3 className="card-title text-lg mb-1">
+                    <h2 className="card-title text-lg mb-1">
                       {t("contact.info.emailTitle")}
-                    </h3>
+                    </h2>
                     <a
                       href="mailto:julienfz59@gmail.com"
                       className="link link-hover text-base-content/70"
@@ -159,9 +159,9 @@ function Contact() {
                     <MapPin className="w-6 h-6" />
                   </div>
                   <div>
-                    <h3 className="card-title text-lg mb-1">
+                    <h2 className="card-title text-lg mb-1">
                       {t("contact.info.locationTitle")}
-                    </h3>
+                    </h2>
                     <p className="text-base-content/70">Lille, France</p>
                   </div>
                 </div>
@@ -174,9 +174,9 @@ function Contact() {
                     <LinkIcon className="w-6 h-6" />
                   </div>
                   <div>
-                    <h3 className="card-title text-lg mb-3">
+                    <h2 className="card-title text-lg mb-3">
                       {t("contact.info.socialTitle")}
-                    </h3>
+                    </h2>
                     <div className="flex gap-3">
                       <a
                         href="https://github.com/JulienF-OC"
@@ -196,12 +196,20 @@ function Contact() {
                         </svg>
                       </a>
                       <a
-                        href="https://www.linkedin.com/in/julien-franz/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="LinkedIn"
-                        className="btn btn-square btn-sm hover:btn-accent transition-all"
-                      >
+                         href="https://www.linkedin.com/in/julien-franz/"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="LinkedIn"
+  className="btn btn-square btn-sm transition-all"
+  onMouseEnter={e => {
+    e.currentTarget.style.backgroundColor = '#007BB5';
+    e.currentTarget.style.borderColor = '#007BB5';
+  }}
+  onMouseLeave={e => {
+    e.currentTarget.style.backgroundColor = '';
+    e.currentTarget.style.borderColor = '';
+  }}
+>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="20"

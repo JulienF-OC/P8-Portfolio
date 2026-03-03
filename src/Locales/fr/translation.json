@@ -23,7 +23,7 @@
     "photoAlt": "Photo de Franz Julien",
     "frontend": {
       "title": "Développeur Frontend",
-      "description": "Création d’interfaces web performantes, responsives et centrées sur l’expérience utilisateur."
+      "description": "Création d'interfaces web performantes, responsives et centrées sur l'expérience utilisateur."
     },
     "backend": {
       "title": "Développeur Backend",
@@ -31,22 +31,62 @@
     },
     "architecture": {
       "title": "Architecture & Bonnes pratiques",
-      "description": "Mise en place d’architectures solides et de bonnes pratiques de développement pour des applications performantes et durables."
+      "description": "Mise en place d'architectures solides et de bonnes pratiques de développement pour des applications performantes et durables."
     },
     "speech": {
-  "p1": "Passionné par le numérique depuis longtemps, j'ai décidé de franchir le pas et d'en faire mon métier en me formant au développement web.",
-  "p2": "Diplômé de la formation Développeur Web chez OpenClassrooms, je me suis confronté à des projets concrets dès le début — pas de théorie creuse, mais de vraies problématiques à résoudre, du front au back.",
-  "p3": "Ce que j'aime profondément dans ce métier ? Ce moment où une idée devient réelle. Où une maquette floue se transforme en application qui tourne, qui répond, qui fait sens pour l'utilisateur. C'est ce mélange de logique et de créativité qui me tient, et qui me pousse à continuer d'apprendre.",
-  "download": "n'hésitez pas à le télécharger"
-},
-"speechText": "Mon CV est disponible directement sur ce portfolio —",
-"speechEnd": "si vous souhaitez en savoir plus sur mon parcours."
+      "p1": "Passionné par le numérique depuis longtemps, j'ai décidé de franchir le pas et d'en faire mon métier en me formant au développement web.",
+      "p2": "Diplômé de la formation Développeur Web chez OpenClassrooms, je me suis confronté à des projets concrets dès le début — pas de théorie creuse, mais de vraies problématiques à résoudre, du front au back.",
+      "p3": "Ce que j'aime profondément dans ce métier ? Ce moment où une idée devient réelle. Où une maquette floue se transforme en application qui tourne, qui répond, qui fait sens pour l'utilisateur. C'est ce mélange de logique et de créativité qui me tient, et qui me pousse à continuer d'apprendre.",
+      "download": "n'hésitez pas à le télécharger"
+    },
+    "speechText": "Mon CV est disponible directement sur ce portfolio —",
+    "speechEnd": "si vous souhaitez en savoir plus sur mon parcours."
+  },
+  "timeline": {
+    "title": "Parcours",
+    "types": {
+      "formation": "Formation",
+      "emploi": "Expérience",
+      "projet": "Projet"
+    },
+    "items": {
+      "0": {
+        "title": "Développeur Web — Bac+2",
+        "desc": "Formation OpenClassrooms. Projets pratiques : React, APIs REST, accessibilité, déploiement. Stack : React, Node.js, MongoDB, Git."
+      },
+      "1": {
+        "title": "Opérateur de production — Ampere Electricity",
+        "desc": "Préparation et réglages des équipements, contrôle qualité, maintenance de premier niveau."
+      },
+      "2": {
+        "title": "Portfolio personnel",
+        "desc": "Application React avec internationalisation, design responsive, accessibilité WCAG et déploiement Netlify."
+      },
+      "3": {
+        "title": "Service Civique — Numérique",
+        "desc": "Accompagnement des élèves vers l'autonomie numérique, médiation et adaptation pédagogique."
+      },
+      "4": {
+        "title": "Employé de magasin — Action",
+        "desc": "Gestion des rayons, caisse, relation client."
+      },
+      "5": {
+        "title": "Baccalauréat général — Mathématiques",
+        "desc": "Formation scientifique avec spécialité mathématiques."
+      }
+    }
   },
   "projects": {
-    "title": "Mes projets",
-    "repo": "Voir le code",
-    "demo": "Voir la démo"
-  },
+  "title": "Mes projets",
+  "repo": "Voir le code",
+  "demo": "Voir la démo",
+  "details": "Voir les détails",
+  "modal": {
+    "features": "Fonctionnalités",
+    "challenges": "Défis & apprentissages",
+    "stack": "Technologies"
+  }
+},
   "skills": {
     "title": "Mes compétences"
   },
@@ -86,7 +126,7 @@
       "messageMin": "Le message doit contenir au moins {{count}} caractères"
     }
   },
-  "footer": { 
-      "rights": "Tous droits réservés." 
-    }
+  "footer": {
+    "rights": "Tous droits réservés."
+  }
 }

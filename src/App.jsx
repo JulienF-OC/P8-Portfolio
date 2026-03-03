@@ -5,6 +5,7 @@ import Skills from "./Components/Skills"
 import Projects from "./Components/Projects"
 import Contact from "./Components/Contact"
 import Footer from "./Components/Footer"
+import Career from "./Components/Career"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Home />
       </div>
       <About />
+      <Career />
 
     <div className="p-5 md:-[15%]">
       <Skills />

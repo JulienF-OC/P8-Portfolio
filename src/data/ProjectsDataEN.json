@@ -3,6 +3,14 @@
     "id": 1,
     "title": "Booki",
     "description": "Integration of a responsive mockup using HTML and CSS for an accommodation booking platform. The project focuses on semantic structure, responsive design, and accessibility.",
+    "longDescription": "Booki is a training project focused on integrating a Figma mockup using pure HTML and CSS. The goal was to produce a web page faithful to the design, fully functional across mobile, tablet, and desktop, without any CSS framework.",
+    "features": [
+      "Pixel-perfect integration from a Figma mockup",
+      "Responsive layout across mobile, tablet, and desktop",
+      "Semantic HTML structure (header, main, section, footer)",
+      "Flexbox-based layout for block organisation"
+    ],
+    "challenges": "The main challenge was handling cross-screen-size compatibility without any framework, relying solely on CSS media queries. This project taught me to read design specs with precision and translate visual constraints into clean code.",
     "technologies": ["HTML", "CSS", "Flexbox", "Responsive Design"],
     "demoLink": "",
     "repoLink": "https://github.com/JulienF-OC/Booki2",
@@ -12,6 +20,15 @@
     "id": 2,
     "title": "Sophie Bluel",
     "description": "Development of a dynamic website for an interior architect with project management via an API. Implementation of admin authentication and DOM manipulation in JavaScript.",
+    "longDescription": "Sophie Bluel is a vanilla JavaScript fullstack project. The goal was to connect a static page to an existing REST API to dynamically display an architect's portfolio, handle a project upload modal, and secure admin access using a JWT token.",
+    "features": [
+      "Dynamic project display from a REST API",
+      "Category-based project filtering",
+      "Admin authentication with JWT",
+      "Modal for adding and deleting projects",
+      "DOM manipulation without any framework"
+    ],
+    "challenges": "Managing UI state in plain JavaScript without React was a great learning experience. I learned to structure code into modules, manipulate the DOM efficiently, and secure API calls with an authentication token.",
     "technologies": ["JavaScript", "REST API", "DOM", "Authentication"],
     "demoLink": "",
     "repoLink": "https://github.com/JulienF-OC/P3-SophieBluel",
@@ -21,6 +38,15 @@
     "id": 3,
     "title": "Nina Carducci",
     "description": "SEO and performance optimization of a photographer's portfolio website. Improvements in search engine ranking, accessibility, loading speed, and fixing issues identified through auditing tools.",
+    "longDescription": "Nina Carducci is an optimization project on an existing website. Using a Lighthouse audit, I identified and fixed performance, accessibility, and SEO issues: image compression, contrast improvements, meta tags, Schema.org structured data, and ARIA corrections.",
+    "features": [
+      "Full audit using Lighthouse and Wave",
+      "Image compression and resizing",
+      "Open Graph and Twitter Card meta tags",
+      "Schema.org structured data implementation",
+      "WCAG accessibility fixes (contrast, ARIA, focus management)"
+    ],
+    "challenges": "Understanding the impact of each optimization on the Lighthouse score and finding the right balance between visual quality and image performance. This project gave me a systematic approach to web auditing.",
     "technologies": ["SEO", "Accessibility", "Web Performance", "Lighthouse"],
     "demoLink": "",
     "repoLink": "https://github.com/JulienF-OC/P4-NinaCarducci",
@@ -30,6 +56,15 @@
     "id": 4,
     "title": "KASA",
     "description": "Development of a real estate rental web application using React. Implementation of routing, dynamic components, state management, and a modern user interface.",
+    "longDescription": "KASA is a React real estate rental application built from scratch. The project involved creating a complete SPA with React Router, reusable components (carousel, accordion, gallery), and data management via a local JSON file.",
+    "features": [
+      "SPA navigation with React Router",
+      "Image carousel component with state management",
+      "Animated accordion component",
+      "Custom 404 page",
+      "Responsive design faithful to the Figma mockup"
+    ],
+    "challenges": "Building an accessible and smooth carousel without an external library was the main technical challenge. I deepened my understanding of React hooks (useState, useEffect) and learned how to design truly reusable components.",
     "technologies": ["React", "JavaScript", "React Router", "CSS"],
     "demoLink": "",
     "repoLink": "https://github.com/JulienF-OC/P5-KASA",
@@ -39,18 +74,36 @@
     "id": 5,
     "title": "Mon Vieux Grimoire",
     "description": "Creation of a backend API for a book review platform. User management, permissions handling, image storage, and data security implementation.",
+    "longDescription": "Mon Vieux Grimoire is a Node.js/Express backend project connected to a MongoDB database. The goal was to build a secure REST API supporting user management, book creation with image uploads, and a unique-per-user rating system with dynamic average calculation.",
+    "features": [
+      "Full REST API built with Express",
+      "Secure authentication with JWT and bcrypt",
+      "Image upload and optimisation with Sharp",
+      "Dynamically calculated average rating system",
+      "MVC architecture with Mongoose models"
+    ],
+    "challenges": "Properly securing routes and handling permissions (only the author can edit their book) required a solid understanding of Express middlewares. I also discovered server-side image optimisation with Sharp.",
     "technologies": ["Node.js", "Express", "MongoDB", "JWT", "REST API"],
     "demoLink": "",
     "repoLink": "https://github.com/JulienF-OC/P6-Mon-Vieux-Grimoire",
     "imageKey": "mvg"
   },
- {
-  "id": 6,
-  "title": "Movie Explorer",
-  "description": "Development of a responsive movie search application using React and the OMDb API. Implementation of dynamic search functionality. Focus on clean UI design, accessibility, and scalable frontend structure.",
-  "technologies": ["React", "JavaScript", "SASS", "OMDb API"],
-  "demoLink": "https://movie-explorer-franz-julien.netlify.app/",
-  "repoLink": "https://github.com/JulienF-OC/MovieExplorer",
-  "imageKey": "movieExplorer"
-}
+  {
+    "id": 6,
+    "title": "Movie Explorer",
+    "description": "Development of a responsive movie search application using React and the OMDb API. Implementation of dynamic search functionality. Focus on clean UI design, accessibility, and scalable frontend structure.",
+    "longDescription": "Movie Explorer is a personal project built to consolidate my React skills. The app allows users to search for movies in real time via the OMDb API, view detailed information about each film, and browse results through a polished, fully responsive interface.",
+    "features": [
+      "Real-time movie search via the OMDb API",
+      "Detailed film view (synopsis, rating, year, genre)",
+      "Fully responsive layout for mobile and desktop",
+      "Loading states and API error handling",
+      "Continuous deployment on Netlify"
+    ],
+    "challenges": "Optimising API calls to avoid excessive requests while typing (debounce) and cleanly managing error and loading states to deliver a smooth user experience.",
+    "technologies": ["React", "JavaScript", "SASS", "OMDb API"],
+    "demoLink": "https://movie-explorer-franz-julien.netlify.app/",
+    "repoLink": "https://github.com/JulienF-OC/MovieExplorer",
+    "imageKey": "movieExplorer"
+  }
 ]

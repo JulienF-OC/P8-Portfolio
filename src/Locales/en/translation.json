@@ -34,19 +34,59 @@
       "description": "Implementation of solid architectures and development best practices for scalable and sustainable applications."
     },
     "speech": {
-  "p1": "Passionate about technology for as long as I can remember, I decided to take the leap and make it my career by training as a web developer.",
-  "p2": "A graduate of the Web Developer program at OpenClassrooms, I tackled real projects from day one — no hollow theory, just genuine problems to solve, from front to back.",
-  "p3": "What I love most about this job? That moment when an idea becomes real. When a rough mockup turns into an application that runs, responds, and actually makes sense for the user. It's that blend of logic and creativity that drives me — and keeps me learning.",
-  "download": "feel free to download it"
-},
-"speechText": "My CV is available directly on this portfolio —",
-"speechEnd": "if you'd like to learn more about my background."
+      "p1": "Passionate about technology for as long as I can remember, I decided to take the leap and make it my career by training as a web developer.",
+      "p2": "A graduate of the Web Developer program at OpenClassrooms, I tackled real projects from day one — no hollow theory, just genuine problems to solve, from front to back.",
+      "p3": "What I love most about this job? That moment when an idea becomes real. When a rough mockup turns into an application that runs, responds, and actually makes sense for the user. It's that blend of logic and creativity that drives me — and keeps me learning.",
+      "download": "feel free to download it"
+    },
+    "speechText": "My CV is available directly on this portfolio —",
+    "speechEnd": "if you'd like to learn more about my background."
+  },
+  "timeline": {
+    "title": "Journey",
+    "types": {
+      "formation": "Education",
+      "emploi": "Experience",
+      "projet": "Project"
+    },
+    "items": {
+      "0": {
+        "title": "Web Developer — Bac+2",
+        "desc": "OpenClassrooms training. Hands-on projects: React, REST APIs, accessibility, deployment. Stack: React, Node.js, MongoDB, Git."
+      },
+      "1": {
+        "title": "Production Operator — Ampere Electricity",
+        "desc": "Equipment setup and calibration, quality control, first-level maintenance."
+      },
+      "2": {
+        "title": "Personal Portfolio",
+        "desc": "React app with internationalization, responsive design, WCAG accessibility and Netlify deployment."
+      },
+      "3": {
+        "title": "Civic Service — Digital",
+        "desc": "Supporting students toward digital autonomy, mediation and pedagogical adaptation."
+      },
+      "4": {
+        "title": "Store Assistant — Action",
+        "desc": "Shelf management, checkout, customer service."
+      },
+      "5": {
+        "title": "General Baccalaureate — Mathematics",
+        "desc": "Scientific curriculum with a mathematics specialization."
+      }
+    }
   },
   "projects": {
-    "title": "My projects",
-    "repo": "View code",
-    "demo": "Live demo"
-  },
+  "title": "My projects",
+  "repo": "View code",
+  "demo": "Live demo",
+  "details": "View details",
+  "modal": {
+    "features": "Features",
+    "challenges": "Challenges & learnings",
+    "stack": "Tech stack"
+  }
+},
   "skills": {
     "title": "My skills"
   },
@@ -54,7 +94,7 @@
     "title": { "before": "Get in", "accent": "Touch" },
     "subtitle": {
       "line1": "A question? A project? Feel free to contact me,",
-      "line2": "I’ll get back to you as soon as possible."
+      "line2": "I'll get back to you as soon as possible."
     },
     "info": {
       "emailTitle": "Email",
@@ -74,7 +114,7 @@
       "submit": "Send message"
     },
     "status": {
-      "success": "Message sent successfully! I’ll reply soon.",
+      "success": "Message sent successfully! I'll reply soon.",
       "error": "Something went wrong. Please try again."
     },
     "errors": {
@@ -86,7 +126,7 @@
       "messageMin": "Message must be at least {{count}} characters"
     }
   },
-  "footer": { 
-      "rights": "All rights reserved." 
-    }
+  "footer": {
+    "rights": "All rights reserved."
+  }
 }
