@@ -11,8 +11,8 @@
     "intro": "I'm",
     "name": "Franz Julien",
     "description": {
-      "line1": "I'm a fullstack developer,",
-      "line2": "working with me is like bringing your imagination to life.",
+      "line1": "Fullstack developer ",
+      "line2": " I turn your ideas into products that work, from the interface to the database.",
       "line3": "Contact me if you need my services."
     },
     "contactButton": "Contact me",
@@ -32,7 +32,15 @@
     "architecture": {
       "title": "Architecture & Best Practices",
       "description": "Implementation of solid architectures and development best practices for scalable and sustainable applications."
-    }
+    },
+    "speech": {
+  "p1": "Passionate about technology for as long as I can remember, I decided to take the leap and make it my career by training as a web developer.",
+  "p2": "A graduate of the Web Developer program at OpenClassrooms, I tackled real projects from day one — no hollow theory, just genuine problems to solve, from front to back.",
+  "p3": "What I love most about this job? That moment when an idea becomes real. When a rough mockup turns into an application that runs, responds, and actually makes sense for the user. It's that blend of logic and creativity that drives me — and keeps me learning.",
+  "download": "feel free to download it"
+},
+"speechText": "My CV is available directly on this portfolio —",
+"speechEnd": "if you'd like to learn more about my background."
   },
   "projects": {
     "title": "My projects",

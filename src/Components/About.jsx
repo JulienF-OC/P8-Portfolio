@@ -4,7 +4,6 @@ import { useTranslation } from "react-i18next";
 
 function About() {
   const { t } = useTranslation();
-
   const aboutElements = [
     {
       id: 1,
@@ -34,7 +33,6 @@ function About() {
             {t("about.title")}
           </h1>
         </div>
-
         <div className="md:h-screen flex justify-center items-center">
           <div className="hidden md:block">
             <img
@@ -43,7 +41,6 @@ function About() {
               className="w-96 object-cover rounded-xl"
             />
           </div>
-
           <div className="md:ml-4 space-y-4">
             {aboutElements.map((section) => (
               <div
@@ -62,6 +59,22 @@ function About() {
               </div>
             ))}
           </div>
+        </div>
+        <div className="max-w-3xl mx-auto mt-10 md:mt-0 bg-base-100 rounded-xl shadow-xl p-8 space-y-4">
+          <p className="text-base leading-relaxed">{t("about.speech.p1")}</p>
+          <p className="text-base leading-relaxed">{t("about.speech.p2")}</p>
+          <p className="text-base leading-relaxed">{t("about.speech.p3")}</p>
+          <p className="text-base leading-relaxed">
+            {t("about.speechText")}{" "}
+            <a
+              href="/cv.pdf"
+              download
+              className="text-accent font-medium underline underline-offset-2 hover:opacity-75 transition-opacity"
+            >
+              {t("about.speech.download")}
+            </a>{" "}
+            {t("about.speechEnd")}
+          </p>
         </div>
       </div>
     </section>

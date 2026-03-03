@@ -227,6 +227,8 @@ function Contact() {
                   className="hidden"
                   tabIndex={-1}
                   autoComplete="off"
+                  aria-hidden="true"
+                  aria-label="honeypot"
                 />
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="form-control">
