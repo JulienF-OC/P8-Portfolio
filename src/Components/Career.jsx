@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 const timelineData = [
-  { id: 1, direction: "l", titleKey: "timeline.items.0.title", date: "2025 — 2026", descKey: "timeline.items.0.desc", type: "formation" },
+  { id: 1, direction: "l", titleKey: "timeline.items.0.title", date: "2025 — En cours", descKey: "timeline.items.0.desc", type: "formation" },
   { id: 2, direction: "r", titleKey: "timeline.items.1.title", date: "06/2024", descKey: "timeline.items.1.desc", type: "emploi" },
   { id: 3, direction: "l", titleKey: "timeline.items.3.title", date: "09/2022 — 07/2023", descKey: "timeline.items.3.desc", type: "emploi" },
   { id: 4, direction: "r", titleKey: "timeline.items.4.title", date: "01/2021 — 07/2021", descKey: "timeline.items.4.desc", type: "emploi" },
