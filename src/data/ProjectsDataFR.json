@@ -12,7 +12,7 @@
     ],
     "challenges": "Le principal défi était de gérer la compatibilité entre les différentes tailles d'écran sans framework, en utilisant uniquement les media queries CSS. J'ai appris à lire une maquette avec précision et à traduire des contraintes visuelles en code propre.",
     "technologies": ["HTML", "CSS", "Flexbox", "Responsive Design"],
-    "demoLink": "",
+    "demoLink": "https://booki-franz-julien.netlify.app/",
     "repoLink": "https://github.com/JulienF-OC/Booki2",
     "imageKey": "booki"
   },
@@ -48,7 +48,7 @@
     ],
     "challenges": "Comprendre l'impact de chaque optimisation sur le score Lighthouse et trouver le bon équilibre entre qualité visuelle et performance des images. Ce projet m'a donné une approche systématique de l'audit web.",
     "technologies": ["SEO", "Accessibilité", "Performance Web", "Lighthouse"],
-    "demoLink": "",
+    "demoLink": "https://nina-franz-julien.netlify.app/",
     "repoLink": "https://github.com/JulienF-OC/P4-NinaCarducci",
     "imageKey": "nina"
   },
@@ -66,7 +66,7 @@
     ],
     "challenges": "Construire un carousel accessible et fluide sans librairie externe a été le principal défi technique. J'ai approfondi ma compréhension des hooks React (useState, useEffect) et appris à concevoir des composants vraiment réutilisables.",
     "technologies": ["React", "JavaScript", "React Router", "CSS"],
-    "demoLink": "",
+    "demoLink": "https://kasa-franz-julien.netlify.app/",
     "repoLink": "https://github.com/JulienF-OC/P5-KASA",
     "imageKey": "kasa"
   },
