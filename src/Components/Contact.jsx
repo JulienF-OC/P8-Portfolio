@@ -9,13 +9,13 @@ function Contact() {
     name: "",
     email: "",
     subject: "",
-    message: ""
+    message: "",
   });
 
   const [formStatus, setFormStatus] = useState({
     loading: false,
     success: false,
-    error: false
+    error: false,
   });
 
   const [errors, setErrors] = useState({});
@@ -52,13 +52,13 @@ function Contact() {
 
     setFormData((prev) => ({
       ...prev,
-      [name]: value
+      [name]: value,
     }));
 
     if (errors[name]) {
       setErrors((prev) => ({
         ...prev,
-        [name]: ""
+        [name]: "",
       }));
     }
   };
@@ -82,14 +82,14 @@ function Contact() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Accept: "application/json"
+          Accept: "application/json",
         },
         body: JSON.stringify({
           name: formData.name,
           email: formData.email,
           subject: formData.subject,
-          message: formData.message
-        })
+          message: formData.message,
+        }),
       });
 
       const data = await response.json().catch(() => null);
@@ -124,8 +124,7 @@ function Contact() {
             <span className="text-accent">{t("contact.title.accent")}</span>
           </h1>
           <p className="text-md my-4">
-            {t("contact.subtitle.line1")}{" "}
-            <br className="hidden md:block" />
+            {t("contact.subtitle.line1")} <br className="hidden md:block" />
             {t("contact.subtitle.line2")}
           </p>
         </div>
@@ -183,7 +182,7 @@ function Contact() {
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="GitHub"
-                        className="btn btn-square btn-sm hover:btn-accent transition-all"
+                        className="btn btn-square btn-sm hover:invert transition-all"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -196,20 +195,20 @@ function Contact() {
                         </svg>
                       </a>
                       <a
-                         href="https://www.linkedin.com/in/julien-franz/"
-  target="_blank"
-  rel="noopener noreferrer"
-  aria-label="LinkedIn"
-  className="btn btn-square btn-sm transition-all"
-  onMouseEnter={e => {
-    e.currentTarget.style.backgroundColor = '#007BB5';
-    e.currentTarget.style.borderColor = '#007BB5';
-  }}
-  onMouseLeave={e => {
-    e.currentTarget.style.backgroundColor = '';
-    e.currentTarget.style.borderColor = '';
-  }}
->
+                        href="https://www.linkedin.com/in/julien-franz/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn"
+                        className="btn btn-square btn-sm transition-all"
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.backgroundColor = "#007BB5";
+                          e.currentTarget.style.borderColor = "#007BB5";
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.backgroundColor = "";
+                          e.currentTarget.style.borderColor = "";
+                        }}
+                      >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="20"
