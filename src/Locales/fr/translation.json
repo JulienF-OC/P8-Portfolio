@@ -77,16 +77,17 @@
     }
   },
   "projects": {
-  "title": "Mes projets",
-  "repo": "Voir le code",
-  "demo": "Voir la démo",
-  "details": "Voir les détails",
-  "modal": {
-    "features": "Fonctionnalités",
-    "challenges": "Défis & apprentissages",
-    "stack": "Technologies"
-  }
-},
+    "title": "Mes projets",
+    "repo": "Voir le code",
+    "demo": "Voir la démo",
+    "details": "Voir les détails",
+    "modal": {
+      "features": "Fonctionnalités",
+      "challenges": "Défis & apprentissages",
+      "stack": "Technologies",
+      "skills": "Compétences mises en œuvre"
+    }
+  },
   "skills": {
     "title": "Mes compétences"
   },

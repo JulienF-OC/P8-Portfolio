@@ -24,8 +24,6 @@ const images = {
 const TECH_ICONS = {
   "HTML": "devicon-html5-plain colored",
   "CSS": "devicon-css3-plain colored",
-  "Flexbox": "devicon-css3-plain colored",
-  "Responsive Design": "devicon-css3-plain colored",
   "JavaScript": "devicon-javascript-plain colored",
   "React": "devicon-react-original colored",
   "React Router": "devicon-reactrouter-plain colored",
@@ -35,18 +33,10 @@ const TECH_ICONS = {
   "JWT": "devicon-jsonwebtokens-plain",
   "API REST": "devicon-fastapi-plain colored",
   "REST API": "devicon-fastapi-plain colored",
-  "DOM": "devicon-javascript-plain colored",
-  "Authentification": "devicon-jsonwebtokens-plain",
-  "Authentication": "devicon-jsonwebtokens-plain",
-  "SEO": "devicon-google-plain colored",
-  "Accessibilite": "devicon-chrome-plain colored",
-  "Accessibility": "devicon-chrome-plain colored",
-  "Performance Web": "devicon-chrome-plain colored",
-  "Web Performance": "devicon-chrome-plain colored",
   "Lighthouse": "devicon-chrome-plain colored",
   "SASS": "devicon-sass-original colored",
   "Git": "devicon-git-plain colored",
-  "OMDb API": "devicon-javascript-plain colored",
+  "OMDb API": "devicon-fastapi-plain colored",
 };
 
 const modalStyles = {
@@ -168,6 +158,24 @@ function ProjectModal({ project, isOpen, onClose, t }) {
             </ul>
           </div>
 
+          {project.skills && project.skills.length > 0 && (
+            <div className="mb-5">
+              <h3 className="font-bold text-accent uppercase text-xs tracking-widest mb-3">
+                {t("projects.modal.skills")}
+              </h3>
+              <ul className="flex flex-wrap gap-2">
+                {project.skills.map((skill, i) => (
+                  <li
+                    key={i}
+                    className="bg-base-content/10 text-base-content text-xs px-3 py-1 rounded-full border border-base-content/20"
+                  >
+                    {skill}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
           <div className="flex gap-3 justify-end pt-2 border-t border-base-300">
             {project.repoLink && (
               <a
@@ -234,6 +242,14 @@ function Projects() {
                     className="bg-accent text-black px-2 py-1 rounded"
                   >
                     {tech}
+                  </li>
+                ))}
+                {project.skills?.map((skill, index) => (
+                  <li
+                    key={`skill-${index}`}
+                    className="bg-base-content/10 text-base-content px-2 py-1 rounded border border-base-content/20"
+                  >
+                    {skill}
                   </li>
                 ))}
               </ul>

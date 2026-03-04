@@ -11,7 +11,8 @@
       "Utilisation de Flexbox pour l'organisation des blocs"
     ],
     "challenges": "Le principal défi était de gérer la compatibilité entre les différentes tailles d'écran sans framework, en utilisant uniquement les media queries CSS. J'ai appris à lire une maquette avec précision et à traduire des contraintes visuelles en code propre.",
-    "technologies": ["HTML", "CSS", "Flexbox", "Responsive Design"],
+    "technologies": ["HTML", "CSS"],
+    "skills": ["Flexbox", "Responsive Design"],
     "demoLink": "https://booki-franz-julien.netlify.app/",
     "repoLink": "https://github.com/JulienF-OC/Booki2",
     "imageKey": "booki"
@@ -29,8 +30,9 @@
       "Manipulation du DOM sans framework"
     ],
     "challenges": "Gérer l'état de l'interface en JavaScript pur sans React a été formateur. J'ai appris à structurer mon code en modules, à manipuler le DOM de façon performante et à sécuriser les appels API avec un token d'authentification.",
-    "technologies": ["JavaScript", "API REST", "DOM", "Authentification"],
-    "demoLink": "",
+    "technologies": ["JavaScript", "API REST"],
+    "skills": ["Manipulation du DOM", "Authentification JWT"],
+    "demoLink": "https://sophiebluel-franz-julien.netlify.app/",
     "repoLink": "https://github.com/JulienF-OC/P3-SophieBluel",
     "imageKey": "sb"
   },
@@ -47,7 +49,8 @@
       "Corrections d'accessibilité WCAG (contrastes, ARIA, focus)"
     ],
     "challenges": "Comprendre l'impact de chaque optimisation sur le score Lighthouse et trouver le bon équilibre entre qualité visuelle et performance des images. Ce projet m'a donné une approche systématique de l'audit web.",
-    "technologies": ["SEO", "Accessibilité", "Performance Web", "Lighthouse"],
+    "technologies": ["HTML", "CSS", "Lighthouse"],
+    "skills": ["SEO", "Accessibilité", "Performance Web"],
     "demoLink": "https://nina-franz-julien.netlify.app/",
     "repoLink": "https://github.com/JulienF-OC/P4-NinaCarducci",
     "imageKey": "nina"
@@ -66,6 +69,7 @@
     ],
     "challenges": "Construire un carousel accessible et fluide sans librairie externe a été le principal défi technique. J'ai approfondi ma compréhension des hooks React (useState, useEffect) et appris à concevoir des composants vraiment réutilisables.",
     "technologies": ["React", "JavaScript", "React Router", "CSS"],
+    "skills": [],
     "demoLink": "https://kasa-franz-julien.netlify.app/",
     "repoLink": "https://github.com/JulienF-OC/P5-KASA",
     "imageKey": "kasa"
@@ -83,7 +87,8 @@
       "Architecture MVC avec modèles Mongoose"
     ],
     "challenges": "Sécuriser correctement les routes et gérer les permissions (seul l'auteur peut modifier son livre) a demandé une bonne compréhension des middlewares Express. J'ai aussi découvert l'optimisation d'images côté serveur avec Sharp.",
-    "technologies": ["Node.js", "Express", "MongoDB", "JWT", "API REST"],
+    "technologies": ["Node.js", "Express", "MongoDB", "JWT"],
+    "skills": [],
     "demoLink": "",
     "repoLink": "https://github.com/JulienF-OC/P6-Mon-Vieux-Grimoire",
     "imageKey": "mvg"
@@ -102,6 +107,7 @@
     ],
     "challenges": "Optimiser les appels API pour éviter les requêtes excessives lors de la frappe (debounce) et gérer proprement les états d'erreur et de chargement pour offrir une bonne expérience utilisateur.",
     "technologies": ["React", "JavaScript", "SASS", "OMDb API"],
+    "skills": [],
     "demoLink": "https://movie-explorer-franz-julien.netlify.app/",
     "repoLink": "https://github.com/JulienF-OC/MovieExplorer",
     "imageKey": "movieExplorer"

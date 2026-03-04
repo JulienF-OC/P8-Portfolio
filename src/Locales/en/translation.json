@@ -77,16 +77,17 @@
     }
   },
   "projects": {
-  "title": "My projects",
-  "repo": "View code",
-  "demo": "Live demo",
-  "details": "View details",
-  "modal": {
-    "features": "Features",
-    "challenges": "Challenges & learnings",
-    "stack": "Tech stack"
-  }
-},
+    "title": "My projects",
+    "repo": "View code",
+    "demo": "Live demo",
+    "details": "View details",
+    "modal": {
+      "features": "Features",
+      "challenges": "Challenges & learnings",
+      "stack": "Tech stack",
+      "skills": "Skills demonstrated"
+    }
+  },
   "skills": {
     "title": "My skills"
   },
