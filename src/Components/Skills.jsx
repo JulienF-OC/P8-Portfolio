@@ -7,7 +7,7 @@ import imgNODE from "../assets/imgNode.jpg";
 import imgTWD from "../assets/imgTWD.jpg";
 import imgExpress from "../assets/imgExpress.jpg";
 import imgMongo from "../assets/imgMongo.png";
-import imgNext from "../assets/imgNext.svg";
+import imgReact from "../assets/imgREACT.png";
 import imgFigma from "../assets/imgFigma.avif";
 
 const skills = [
@@ -18,7 +18,7 @@ const skills = [
   { id: 5, name: "Tailwind CSS", image: imgTWD },
   { id: 6, name: "Express", image: imgExpress },
   { id: 7, name: "MongoDB", image: imgMongo },
-  { id: 8, name: "Next.js", image: imgNext },
+  { id: 8, name: "React", image: imgReact },
   { id: 9, name: "Figma", image: imgFigma }
 ];
 
