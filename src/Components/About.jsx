@@ -29,9 +29,9 @@ function About() {
     <section id="about">
       <div className="bg-base-300 p-10 mb-10 md:mb-15">
         <div className="mb-5 text-center">
-          <h1 className="uppercase font-bold text-3xl">
+          <h2 className="uppercase font-bold text-3xl">
             {t("about.title")}
-          </h1>
+          </h2>
         </div>
         <div className="md:h-screen flex justify-center items-center">
           <div className="hidden md:block">
@@ -49,9 +49,9 @@ function About() {
               >
                 <div className="mb-2 md:mb-0">{section.icon}</div>
                 <div className="md:ml-4 text-center md:text-left">
-                  <h2 className="text-xl font-bold mb-1">
+                  <h3 className="text-xl font-bold mb-1">
                     {section.title}
-                  </h2>
+                  </h3>
                   <p className="text-sm">
                     {section.description}
                   </p>

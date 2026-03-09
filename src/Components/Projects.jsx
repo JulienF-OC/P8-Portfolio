@@ -104,7 +104,7 @@ function ProjectModal({ project, isOpen, onClose, t }) {
         <div className="p-6">
 
           <div className="flex justify-between items-start mb-4">
-            <h2 className="text-2xl font-bold">{project.title}</h2>
+            <h3 className="text-2xl font-bold">{project.title}</h3>
             <button
               onClick={onClose}
               className="btn btn-sm btn-circle btn-ghost text-lg"
@@ -122,9 +122,9 @@ function ProjectModal({ project, isOpen, onClose, t }) {
 
           {project.features && project.features.length > 0 && (
             <div className="mb-5">
-              <h3 className="font-bold text-accent uppercase text-xs tracking-widest mb-2">
+              <h4 className="font-bold text-accent uppercase text-xs tracking-widest mb-2">
                 {t("projects.modal.features")}
-              </h3>
+              </h4>
               <ul className="space-y-1">
                 {project.features.map((f, i) => (
                   <li key={i} className="text-sm flex gap-2 items-start">
@@ -138,9 +138,9 @@ function ProjectModal({ project, isOpen, onClose, t }) {
 
           {project.challenges && project.challenges.length > 0 && (
             <div className="mb-5">
-              <h3 className="font-bold text-accent uppercase text-xs tracking-widest mb-2">
+              <h4 className="font-bold text-accent uppercase text-xs tracking-widest mb-2">
                 {t("projects.modal.challenges")}
-              </h3>
+              </h4>
               <p className="text-sm text-base-content/80 leading-relaxed">
                 {project.challenges}
               </p>
@@ -148,9 +148,9 @@ function ProjectModal({ project, isOpen, onClose, t }) {
           )}
 
           <div className="mb-5">
-            <h3 className="font-bold text-accent uppercase text-xs tracking-widest mb-3">
+            <h4 className="font-bold text-accent uppercase text-xs tracking-widest mb-3">
               {t("projects.modal.stack")}
-            </h3>
+            </h4>
             <ul className="flex flex-wrap gap-4">
               {project.technologies.map((tech, i) => (
                 <TechIcon key={i} tech={tech} />
@@ -160,9 +160,9 @@ function ProjectModal({ project, isOpen, onClose, t }) {
 
           {project.skills && project.skills.length > 0 && (
             <div className="mb-5">
-              <h3 className="font-bold text-accent uppercase text-xs tracking-widest mb-3">
+              <h4 className="font-bold text-accent uppercase text-xs tracking-widest mb-3">
                 {t("projects.modal.skills")}
-              </h3>
+              </h4>
               <ul className="flex flex-wrap gap-2">
                 {project.skills.map((skill, i) => (
                   <li
@@ -216,9 +216,9 @@ function Projects() {
   return (
     <section id="Projects">
       <div className="mb-5 text-center">
-        <h1 className="uppercase font-bold text-3xl mb-6">
+        <h2 className="uppercase font-bold text-3xl mb-6">
           {t("projects.title")}
-        </h1>
+        </h2>
         <div className="grid md:grid-cols-3 gap-4">
           {projectsData.map((project) => (
             <div
@@ -233,7 +233,7 @@ function Projects() {
                   loading="lazy"
                 />
               )}
-              <h2 className="font-bold text-xl mb-2">{project.title}</h2>
+              <h3 className="font-bold text-xl mb-2">{project.title}</h3>
               <p className="text-sm mb-3">{project.description}</p>
               <ul className="flex flex-wrap gap-2 text-xs mb-4">
                 {project.technologies.map((tech, index) => (

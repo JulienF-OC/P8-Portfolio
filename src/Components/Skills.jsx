@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-
 import imgHTML from "../assets/imgHTML.webp";
 import imgCSS from "../assets/imgCSS.webp";
 import imgJS from "../assets/imgJS.webp";
@@ -19,7 +18,7 @@ const skills = [
   { id: 6, name: "Express", image: imgExpress },
   { id: 7, name: "MongoDB", image: imgMongo },
   { id: 8, name: "React", image: imgReact },
-  { id: 9, name: "Figma", image: imgFigma }
+  { id: 9, name: "Figma", image: imgFigma },
 ];
 
 function Skills() {
@@ -29,11 +28,10 @@ function Skills() {
     <section id="Skills">
       <div className="p-0 mb-10 md:mb-60">
         <div className="mb-5 text-center">
-          <h1 className="uppercase font-bold text-3xl mb-10">
+          <h2 className="uppercase font-bold text-3xl mb-10">
             {t("skills.title")}
-          </h1>
+          </h2>
         </div>
-
         <div>
           <div className="mt-4 md:mt-15 grid grid-cols-3 gap-3 place-items-center max-w-2xl mx-auto transform transition duration-200">
             {skills.map((skill) => (

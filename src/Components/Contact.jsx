@@ -119,10 +119,10 @@ function Contact() {
     <section className="my-10 md:my-32" id="contact">
       <div className="max-w-7xl mx-auto px-5">
         <div className="text-center mb-12 md:mb-16">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4">
+          <h2 className="text-5xl md:text-6xl font-bold mb-4">
             {t("contact.title.before")}{" "}
             <span className="text-accent">{t("contact.title.accent")}</span>
-          </h1>
+          </h2>
           <p className="text-md my-4">
             {t("contact.subtitle.line1")} <br className="hidden md:block" />
             {t("contact.subtitle.line2")}
@@ -138,9 +138,9 @@ function Contact() {
                     <Mail className="w-6 h-6" />
                   </div>
                   <div>
-                    <h2 className="card-title text-lg mb-1">
+                    <h3 className="card-title text-lg mb-1">
                       {t("contact.info.emailTitle")}
-                    </h2>
+                    </h3>
                     <a
                       href="mailto:julienfz59@gmail.com"
                       className="link link-hover text-base-content/70"
@@ -158,9 +158,9 @@ function Contact() {
                     <MapPin className="w-6 h-6" />
                   </div>
                   <div>
-                    <h2 className="card-title text-lg mb-1">
+                    <h3 className="card-title text-lg mb-1">
                       {t("contact.info.locationTitle")}
-                    </h2>
+                    </h3>
                     <p className="text-base-content/70">Lille, France</p>
                   </div>
                 </div>
@@ -173,9 +173,9 @@ function Contact() {
                     <LinkIcon className="w-6 h-6" />
                   </div>
                   <div>
-                    <h2 className="card-title text-lg mb-3">
+                    <h3 className="card-title text-lg mb-3">
                       {t("contact.info.socialTitle")}
-                    </h2>
+                    </h3>
                     <div className="flex gap-3">
                       <a
                         href="https://github.com/JulienF-OC"

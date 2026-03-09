@@ -85,9 +85,9 @@ function TimelineItem({ item, index }) {
             boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
           }}
         >
-          <p style={{ fontWeight: 700, fontSize: "0.85em", margin: 0, lineHeight: 1.4 }}>
+          <h3 style={{ fontWeight: 700, fontSize: "0.85em", margin: 0, lineHeight: 1.4 }}>
             {t(item.titleKey)}
-          </p>
+          </h3>
           <span
             style={{
               position: "absolute",
